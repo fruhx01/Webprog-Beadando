@@ -1,0 +1,110 @@
+body{
+	font-family: sans-serif;
+	padding-top: 50px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  color: black;
+}
+
+
+b, strong {
+    font-weight: 700;
+    color: white;
+}
+
+header, footer{
+	
+	background-image: url("../images/header.jpg");
+	background-size: cover;
+	padding-top: 50px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+	
+}
+header .fejlec_cim{
+	color: white;
+	padding: 10px;
+}
+.content{
+	width: 80%;
+	margin-top: 20px;
+	padding: 20px;
+        margin-left:140;
+color: black;
+text-align:center;
+
+}
+.message{
+	border: 2px solid black;
+	padding: 10px;
+	background-color: #111111;
+}
+
+label { display: block; }
+iframe, video{
+	min-width: 100%;
+}
+/*Dobozok*/
+.box{
+	border: 2px solid black;
+	padding: 4px;
+	margin-bottom: 5px;
+	max-width: 100%;
+}
+/*Videó*/
+.embed-container{ 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed{ 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+/*gallery*/
+div.gallery {margin: 0 auto; width: 660px;}
+    div.image { display: inline-block; }
+    div.image img { width: 200px; }
+
+/*navbar*/
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #11111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+div#galeria {margin: 0 auto; width: 620px;}
+        div.kep { display: inline-block; }
+        div.kep img { width: 200px; }
